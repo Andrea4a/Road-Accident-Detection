@@ -1,0 +1,13 @@
+streamlit
+numpy
+pandas
+opencv-python
+pillow
+torch
+torchvision
+scikit-learn
+openpyxl
+scipy
+tqdm
+ftfy
+regex

@@ -1,0 +1,26 @@
+{
+  "src_root": "D:/Tesi/VadCLIP-Final/src",
+  "weights_path": "D:/Tesi/VadCLIP-Final/src/model/model_best.pth",
+  "val_list": "D:/Tesi/VadCLIP-Final/list/CLIP_rgbval.csv",
+  "fixed_threshold": 0.7702,
+  "device": "cuda",
+  "embed_dim": 512,
+  "visual_length": 256,
+  "visual_width": 512,
+  "visual_head": 1,
+  "visual_layers": 2,
+  "attn_window": 8,
+  "prompt_prefix": 16,
+  "prompt_postfix": 10,
+  "classes_num": 2,
+  "peft_blocks": 3,
+  "init_temp": 0.07,
+  "crop_type": 10,
+  "downsample_if_fps_ge": 30.0,
+  "target_fps": 25.0,
+  "stride": 1,
+  "label_map": {
+    "Normal": "a normal driving scene",
+    "RoadAccidents": "a traffic accident on the road"
+  }
+}
